@@ -10,14 +10,10 @@ public class BankAccount{
     private static double totalAssets;
 
 
-
+//method increment numOfAccounts by 1 for each account added through test file
     public BankAccount(){
         numOfAccounts++;
-
-
-
     }
-
 
 //method to return total number of bank accounts in system
     public static int getNumOfAccounts(){

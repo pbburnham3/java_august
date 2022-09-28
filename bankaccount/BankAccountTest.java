@@ -21,8 +21,10 @@ public class BankAccountTest{
         System.out.println("Your checking account balance is: " + a001.getCheckingAccount());
         System.out.println("Your savings account balance is: " + a001.getSavingsAccount());
 
-        System.out.println("Your checking account balance is: " + a001.getCheckingAccount());
+        a001.withdrawCheckingAccount(56.00);
+        a001.withdrawSavingsAccount(894.50);
 
+        System.out.println("Your checking account balance is: " + a001.getCheckingAccount());
         System.out.println("Your total account balance is: " + a001.getTotalAccountValue());
 
 
